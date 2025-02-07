@@ -1,6 +1,6 @@
-# DevTools Extension setPage loop
+# DevTools Extension ExtensionSidebarPane Events
 
-A empty browser extension to show that there’s a loop problem with `setPage()` when creating a DevTools extension in Firefox – https://bugzilla.mozilla.org/show_bug.cgi?id=1852246
+An empty browser extension to show that there’s a problem with the `ExtensionSidebarPane` events when creating a DevTools extension in Firefox.
 
 ## License
 

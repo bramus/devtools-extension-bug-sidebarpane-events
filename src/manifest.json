@@ -1,9 +1,9 @@
 {
-    "name": "POC: DevTools Extension setPage Bug",
+    "name": "POC: DevTools Extension ExtensionSidebarPane events Bug",
     "action": {},
     "manifest_version": 3,
     "version": "1.0.0",
-    "description": "POC to show that there’s a bug with setPage",
+    "description": "POC to show that there’s a bug with ExtensionSidebarPane events",
     "permissions": [],
     "icons": {
       "512": "icon.png"
