@@ -1,5 +1,13 @@
 const initSidebarPanel = (sidebarPane) => {
     sidebarPane.setPage('devtools.html');
+
+    sidebarPane.onShown.addListener((window) => {
+        console.log('onShown', window);
+    });
+
+    sidebarPane.onHidden.addListener((window) => {
+        console.log('onHidden', window);
+    });
 };
 
 // Only call this method when the script is running from the hidden devtools page registered from the manifest.json.
