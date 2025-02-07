@@ -1,6 +1,6 @@
 # DevTools Extension setPage loop
 
-A browser extension to show that there’s a problem with `setPage()` when creating a DevTools extension.
+A empty browser extension to show that there’s a loop problem with `setPage()` when creating a DevTools extension in Firefox – https://bugzilla.mozilla.org/show_bug.cgi?id=1852246
 
 ## License
 
