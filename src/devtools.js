@@ -1,12 +1,12 @@
 const initSidebarPanel = (sidebarPane) => {
     sidebarPane.setPage('devtools.html');
 
-    sidebarPane.onShown.addListener((window) => {
-        console.log('onShown', window);
+    sidebarPane.onShown.addListener((x) => {
+        console.log('onShown', x, window);
     });
 
-    sidebarPane.onHidden.addListener((window) => {
-        console.log('onHidden', window);
+    sidebarPane.onHidden.addListener((x) => {
+        console.log('onHidden', x, window);
     });
 };
 
